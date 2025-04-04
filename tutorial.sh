@@ -189,3 +189,7 @@ git merge main
 git push origin :foo
 git fetch origin :bar
 2.8
+git fetch origin c3:foo
+git fetch origin c2:side
+git merge foo
+git merge side
